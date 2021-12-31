@@ -1,11 +1,11 @@
 import React from 'react'
+import Navbar from './components/Layout/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World.</h1>
-    <button className='btn btn-danger btn -sm'>Save</button>
-    </div>
+   <React.Fragment>
+     <Navbar />
+   </React.Fragment>
   );
 }
 
